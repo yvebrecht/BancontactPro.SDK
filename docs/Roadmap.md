@@ -5,9 +5,9 @@ The state of the unofficial Bancontact Pro SDKs as of 24 October 2026. Nothing h
 | Language | Package name (proposal) | State |
 |---|---|---|
 | .NET | `BancontactPro.Net` | In development. Payment, Refund and Reconciliation APIs, request signing and webhook verification exist. |
-| TypeScript | `@dewall88/bancontactpro` | In development. Same API coverage, no runtime dependencies. |
+| TypeScript | `@yvebrecht/bancontactpro` | In development. Same API coverage, no runtime dependencies. |
 | Python | `bancontactpro` | In development. Same API coverage, async. |
-| PHP | `dewall88/bancontactpro` | In development. Same API coverage, PSR-18. |
+| PHP | `yvebrecht/bancontactpro` | In development. Same API coverage, PSR-18. |
 
 ## What has to happen first
 

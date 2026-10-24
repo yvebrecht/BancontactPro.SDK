@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a defect in a Bancontact Pro SDK or its documentation
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public.** Do not post API keys, private keys, production merchant profile IDs (PPIDs), payment data or personal data. This is not an official Bancontact project; questions about the Bancontact Pro API itself belong with Bancontact.
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK
+      options: [".NET", "TypeScript", "Python", "PHP", "Sample", "Documentation"]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version of the SDK and of the runtime
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      options: ["Preprod", "Production"]
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce, with a reference to the documentation page or spec operation
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error message (without secrets)

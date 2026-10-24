@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bancontact Pro documentation
+    url: https://docs.bancontactpro.com/
+    about: This is not an official Bancontact project. Questions about the Bancontact Pro API itself belong with Bancontact.

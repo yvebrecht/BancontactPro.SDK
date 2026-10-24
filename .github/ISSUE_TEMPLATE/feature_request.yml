@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an improvement to a Bancontact Pro SDK or its documentation
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are welcome. Note that code contributions are not accepted (see CONTRIBUTING.md), and that **issues are public**: do not post keys, payment data, personal data or confidential information.
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK
+      options: [".NET", "TypeScript", "Python", "PHP", "Sample", "Documentation", "All"]
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do, and what is missing?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+  - type: textarea
+    id: api
+    attributes:
+      label: Related Bancontact Pro documentation page or API operation

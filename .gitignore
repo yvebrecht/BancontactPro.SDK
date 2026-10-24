@@ -1,0 +1,5 @@
+# Local only: source texts, internal notes, never published
+_bronnen/
+
+# Issues, PRs and git bundles of the old repositories, kept locally
+.archive/

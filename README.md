@@ -11,9 +11,9 @@ Unofficial, independent, open source SDKs for the Bancontact Pro API (.NET, Type
 | Language | Repository | Package name (proposal, not reserved) |
 |---|---|---|
 | .NET | [BancontactPro.Net](https://github.com/yvebrecht/BancontactPro.Net) | `BancontactPro.Net` (NuGet) |
-| TypeScript | [BancontactPro.TypeScript](https://github.com/yvebrecht/BancontactPro.TypeScript) | `@dewall88/bancontactpro` (npm) |
+| TypeScript | [BancontactPro.TypeScript](https://github.com/yvebrecht/BancontactPro.TypeScript) | `@yvebrecht/bancontactpro` (npm) |
 | Python | [BancontactPro.Python](https://github.com/yvebrecht/BancontactPro.Python) | `bancontactpro` (PyPI) |
-| PHP | [BancontactPro.PHP](https://github.com/yvebrecht/BancontactPro.PHP) | `dewall88/bancontactpro` (Packagist) |
+| PHP | [BancontactPro.PHP](https://github.com/yvebrecht/BancontactPro.PHP) | `yvebrecht/bancontactpro` (Packagist) |
 
 The names are proposals following each ecosystem's usual conventions. Nothing is reserved or published.
 
